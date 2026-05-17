@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adrieza Rizky Samudra — Full-Stack Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body data-theme="light">
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Lightweight particle background -->
+    <div class="particles" id="particles"></div>
+
+    <!-- Navbar -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-brand">
+            <img id="logoDisplay" src="" alt="Logo" class="logo-placeholder">
+            <span>ADS Studio</span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home" class="nav-item">Home</a></li>
+            <li><a href="#about" class="nav-item">About</a></li>
+            <li><a href="#projects" class="nav-item">Projects</a></li>
+            <li><a href="#experience" class="nav-item">Experience</a></li>
+            <li><a href="#why-me" class="nav-item">Why Me</a></li>
+            <li><a href="#contact" class="nav-item">Contact</a></li>
+        </ul>
+        <div class="nav-toggle">
+            <span></span><span></span><span></span>
+        </div>
+        <button class="theme-toggle" aria-label="Toggle theme">
+            <span class="sun-icon">☀️</span>
+            <span class="moon-icon">🌙</span>
+        </button>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-image" id="heroImage">
+                <img id="profilePhotoDisplay" src="" alt="Profile Photo" class="profile-photo">
+            </div>
+            <h1 class="hero-title" id="nameDisplay">Adrieza Rizky Samudra</h1>
+            <p class="hero-tagline" id="taglineDisplay"></p>
+            <p class="hero-description" id="descriptionDisplay">
+                A front-end designer with 10 years of experience. Proficient in JavaScript, HTML/CSS, PHP, Ruby. Building fast, interactive, and dynamic websites.
+            </p>
+            <div class="hero-cta">
+                <a href="#projects" class="btn btn-primary ripple">View My Work</a>
+                <a href="#contact" class="btn btn-outline ripple">Contact Me</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about reveal">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+            <div class="about-text" id="aboutText">
+                <p>I'm Adrieza, a full-stack developer with a strong focus on front-end design. I have been designing and developing websites for over a decade.</p>
+                <p>I believe a good website is not just about code, but also about a smooth and enjoyable user experience. From HTML/CSS to React, from PHP to Ruby, I'm ready to bring your digital ideas to life.</p>
+            </div>
+            <div class="skills" id="skillsContainer"></div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <h2 class="section-title">Latest Projects</h2>
+        <div class="projects-grid" id="projectsGrid"></div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <h2 class="section-title">Work Experience</h2>
+        <div class="timeline" id="timelineContainer"></div>
+    </section>
+
+    <!-- Why Me Section -->
+    <section id="why-me" class="why-me">
+        <h2 class="section-title">Why Choose Me?</h2>
+        <div class="why-me-grid" id="whyMeGrid"></div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2 class="section-title">Contact Me</h2>
+        <div class="contact-info">
+            <div class="contact-item">
+                <span class="contact-icon">📱</span>
+                <a id="whatsappLink" href="#" target="_blank">WhatsApp</a>
+            </div>
+            <div class="contact-item">
+                <span class="contact-icon">📷</span>
+                <a id="instagramLink" href="#" target="_blank">Instagram</a>
+            </div>
+            <div class="contact-item">
+                <span class="contact-icon">✉️</span>
+                <a id="emailLink" href="#">Email</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Adrieza Rizky Samudra. All rights reserved.</p>
+    </footer>
+
+    <script type="module" src="app.js"></script>
+</body>
+</html>
